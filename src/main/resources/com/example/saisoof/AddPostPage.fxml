@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.saisoof.AddPostController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="postPhoto" fitHeight="200.0" fitWidth="200.0" layoutX="150.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="addPhotoButton" layoutX="212.0" layoutY="281.0" mnemonicParsing="false" onAction="#handleAddPhoto" style="-fx-background-color: #000000;" text="Add Photo" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <TextField fx:id="captionField" layoutX="176.0" layoutY="335.0" promptText="Add Caption" style="-fx-background-color: #FAFAFA;" />
+            <Button fx:id="savePostButton" layoutX="215.0" layoutY="433.0" mnemonicParsing="false" onAction="#handleSavePost" style="-fx-background-color: #000000;" text="Save Post" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Label fx:id="noPhotoLabel" layoutX="176.0" layoutY="377.0" textFill="RED" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

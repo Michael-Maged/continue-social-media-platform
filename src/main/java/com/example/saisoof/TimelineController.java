@@ -58,7 +58,7 @@ public class TimelineController implements Initializable {
 
             ImageView post = new ImageView(Timeline.allposts.get(i).getUrl());
             post.setFitWidth(200);
-            post.setFitHeight(200);
+            post.setFitHeight(250);
 
             Label captionLabel = new Label(Timeline.allposts.get(i).getCaption());
 

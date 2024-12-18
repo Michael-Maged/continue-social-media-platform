@@ -76,7 +76,7 @@ public class UserProfile {
 
         ImageView postImage = new ImageView(post.getUrl());
         postImage.setFitWidth(175);
-        postImage.setFitHeight(175);
+        postImage.setFitHeight(200);
 
         ProfilePageController.postGrid.add(postImage, ProfilePageController.colIndex, ProfilePageController.rowIndex);
 

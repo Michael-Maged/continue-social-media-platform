@@ -42,7 +42,7 @@ public class ForgotPasswordController {
     public void handleForgotPass(){
         if(ForgotPassword.forgotpass(usernameField.getText().toLowerCase(), newPasswordField.getText()) && UserRegistration.passLen(newPasswordField.getText())){
             try {
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("LoginPage.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("LoginPagefx.fxml"));
                 Parent root = loader.load();
                 Stage stage = new Stage();
                 stage.setResizable(false);

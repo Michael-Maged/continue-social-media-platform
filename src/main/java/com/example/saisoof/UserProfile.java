@@ -26,6 +26,13 @@ public class UserProfile {
         this.username = username;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
     public void setBio(String bio) {
         this.bio = bio;

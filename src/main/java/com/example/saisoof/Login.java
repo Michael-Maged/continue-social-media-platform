@@ -5,7 +5,7 @@ public class Login {
 
     public static UserProfile loginUser(String username, String password) {
         for (UserProfile user: Main.getAllUsers()){
-            if (user.getUsername().equals(username) && user.getPassword().equals(password)){
+            if ((user.getUsername().equals(username) || user.getEmail().equals(username) )&& user.getPassword().equals(password)){
                 return user;
             }
         }

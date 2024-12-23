@@ -34,7 +34,7 @@
                   <Font name="System Bold Italic" size="28.0" />
                </font>
             </Label>
-            <TextField fx:id="usernameField" layoutX="63.0" layoutY="266.0" promptText="Enter Username" style="-fx-background-color: #FAFAFA;" />
+            <TextField fx:id="usernameField" layoutX="63.0" layoutY="266.0" promptText="Enter Email or Username" style="-fx-background-color: #FAFAFA;" />
             <PasswordField fx:id="passwordField" layoutX="64.0" layoutY="312.0" promptText="Enter Password" style="-fx-background-color: #FAFAFA;" />
             <Label fx:id="logErrorLabel" layoutX="63.0" layoutY="349.0" textFill="RED" />
             <Hyperlink fx:id="forgotPasswordLink" onAction="#handleForgotPass" layoutX="86.0" layoutY="451.0" text="Forgot password?" />
